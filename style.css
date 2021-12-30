@@ -1,0 +1,10 @@
+.squares{
+    height: 50px;
+    width:  50px;
+    background-color:red;
+    margin: 100px;
+}
+#container{
+    display:flex;
+    gap: 5px;
+}
