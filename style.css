@@ -1,10 +1,21 @@
 .squares{
-    height: 50px;
-    width:  50px;
+    height: 20px;
+    width:  20px;
     background-color:red;
-    margin: 100px;
+    flex:0 0 auto;
+    
+    
+    
 }
 #container{
     display:flex;
-    gap: 5px;
+    
+    width:320px;
+    height:320px;
+    flex-wrap: wrap;
+    background-color:greenyellow;
+}
+
+.squaresHover{
+    background-color:yellow;
 }
