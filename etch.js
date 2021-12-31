@@ -11,10 +11,14 @@ const onsquare = document.querySelectorAll(".squares");
 
 
 onsquare.forEach(function(x){
-    x.addEventListener("click",function(){
-       
+    x.addEventListener("click",function(x){
+       fun();
     })
 });
    
  
 
+function fun (item){
+    this.classList.add(squaresB);
+    this.classList.remove(squares);
+}

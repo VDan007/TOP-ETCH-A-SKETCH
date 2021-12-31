@@ -18,5 +18,8 @@
 }
 
 .squaresB{
+    height: 20px;
+    width:  20px;
     background-color:blueviolet;
+    flex:0 0 auto;
 }
