@@ -7,6 +7,14 @@ for(let i = 0;i<256;i++ ){
     container.appendChild(square);
 }
  
-const onsquare = document.querySelectorAll("squares");
-onsquare.classList.remove("squares");
-onsquare.classList.add("squaresHover");
+const onsquare = document.querySelectorAll(".squares");
+
+
+onsquare.forEach(function(x){
+    x.addEventListener("click",function(){
+       
+    })
+});
+   
+ 
+
