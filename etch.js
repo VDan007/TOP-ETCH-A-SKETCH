@@ -7,18 +7,11 @@ for(let i = 0;i<256;i++ ){
     container.appendChild(square);
 }
  
-const onsquare = document.querySelectorAll(".squares");
-
-
-onsquare.forEach(function(x){
-    x.addEventListener("click",function(x){
-       fun();
-    })
-});
-   
- 
-
-function fun (item){
-    this.classList.add(squaresB);
-    this.classList.remove(squares);
+function classC(item){
+    this.classList.add("squaresB");
 }
+
+const sq = document.querySelectorAll(".squares");
+sq.forEach(function(x){
+    x.addEventListener("mouseenter",classC);
+})
