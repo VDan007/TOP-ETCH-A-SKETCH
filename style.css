@@ -1,25 +1,27 @@
 .squares{
-    height: 20px;
-    width:  20px;
-    background-color:red;
-    flex:0 0 auto;
+    
+    
+    background-color:white;
+    
+    
     
     
     
     
 }
 #container{
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:repeat(5,1fr);
     
-    width:320px;
-    height:320px;
+    
+    width:400px;
+    height:400px;
     flex-wrap: wrap;
     background-color:greenyellow;
+    border:5px solid red;
 }
 
 .squaresB{
-    height: 20px;
-    width:  20px;
-    background-color:blueviolet;
-    flex:0 0 auto;
+    background-color:blue;
 }
