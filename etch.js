@@ -38,6 +38,7 @@ function newGrid (){
     for(let i = 0;i<(inputt*inputt);i++){
         const ssquare = document.createElement("div");
         ssquare.classList.add("squares");
+        ssquare.style.backgroundColor
         container.appendChild(ssquare);
     } 
     const sqq = document.querySelectorAll(".squares");
@@ -54,3 +55,4 @@ function ask(){
     if (inputt<0){inputt=window.prompt("naa,no minus");}
     else if(inputt>100){inputt=window.prompt("naa,no bigger than 100");}
 }
+//jkasdkjbcdsbchdsbchdcndchjdscudscdjkscdhiscjhbijjhscdicjdcs
